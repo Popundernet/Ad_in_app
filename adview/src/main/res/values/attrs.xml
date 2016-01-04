@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AdView">
+        <attr name="key" format="string" />
+        <attr name="size" format="enum" >
+            <enum name="fullscreen" value="0"/>
+            <enum name="bottomline" value="1"/>
+            <enum name="topline" value="2"/>
+            </attr>
+    </declare-styleable>
+</resources>
