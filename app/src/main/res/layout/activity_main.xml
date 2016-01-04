@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.advertise.advertisesample.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/open_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bottom" />
+
+        <Button
+            android:id="@+id/open_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="top" />
+
+        <Button
+            android:id="@+id/open_full"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="full" />
+    </LinearLayout>
+
+    <com.advertise.adview.AdView
+        android:id="@+id/topline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        android:visibility="gone"
+        custom:key="7jmp2vgcdp86c0tou9ye6a8yfuu93721i9c1dgcbaej17shw4e14lc96bca0cejua37xoz2uihp988sn9zs2c7yd"
+        custom:size="topline" />
+
+    <com.advertise.adview.AdView
+        android:id="@+id/bottomline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:visibility="gone"
+        custom:key="7jmp2vgcdp86c0tou9ye6a8yfuu93721i9c1dgcbaej17shw4e14lc96bca0cejua37xoz2uihp988sn9zs2c7yd"
+        custom:size="bottomline" />
+
+    <com.advertise.adview.AdView
+        android:id="@+id/fullscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:visibility="gone"
+        custom:key="7jmp2vgcdp86c0tou9ye6a8yfuu93721i9c1dgcbaej17shw4e14lc96bca0cejua37xoz2uihp988sn9zs2c7yd"
+        custom:size="fullscreen" />
+</RelativeLayout>
