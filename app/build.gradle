@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.advertise.advertisesample"
+        applicationId "com.advertise.sample"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
