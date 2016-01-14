@@ -4,8 +4,8 @@ package com.advertise.adview.core;
 public class Constants {
 
     public class Api{
-        public static final String BASE_URL="http://sub.popunder.ru/";
-        public static final String ARG_OS="?os=android";
+        public static final String BASE_URL="http://synhandler.net/";
+        public static final String ARG_OS="&os=android";
     }
 
     public class Attr{
